@@ -5,7 +5,7 @@ from pyrogram.errors import FloodWait, UserNotParticipant
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 
-########################🎊 Lisa | NT BOTS 🎊######################################################
+########################🎊 Stranger | Warrior Units BOTS 🎊######################################################
 
 async def handle_force_subscribe(bot, message):
     try:
@@ -18,7 +18,7 @@ async def handle_force_subscribe(bot, message):
         if user.status == "kicked":
             await bot.send_message(
                 chat_id=message.from_user.id,
-                text="Sorry Sir, You are Banned. Contact My [Support Group](https://t.me/NT_BOTS_SUPPORT).",
+                text="Sorry Sir, You are Banned. Contact My [Support Group](https://t.me/+XAtFZIm4GNZmNGNl).",
                 disable_web_page_preview=True,
             )
             return 400
@@ -39,9 +39,9 @@ async def handle_force_subscribe(bot, message):
     except Exception:
         await bot.send_message(
             chat_id=message.from_user.id,
-            text="Something Went Wrong. Contact My [Support Group](https://t.me/NT_BOTS_SUPPORT).",
+            text="Something Went Wrong. Contact My [Support Group](https://t.me/+XAtFZIm4GNZmNGNl).",
             disable_web_page_preview=True,
         )
         return 400
 
-########################🎊 Lisa | NT BOTS 🎊######################################################
+########################🎊 Stranger | Warrior Units BOTS 🎊######################################################
